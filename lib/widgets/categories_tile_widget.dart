@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wallpaper/screens/categories_screen.dart';
+import 'package:flutter_wallpaper/screens/image_view_screen.dart';
 
 class CategoriesTile extends StatelessWidget {
   const CategoriesTile({
