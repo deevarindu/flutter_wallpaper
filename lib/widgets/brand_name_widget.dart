@@ -3,17 +3,27 @@ import 'package:flutter/material.dart';
 Widget brandName() {
   return Row(
     mainAxisAlignment: MainAxisAlignment.center,
-    children: const [
-      Text(
-        'Wallpaper',
-        style: TextStyle(
-          color: Colors.black87,
-        ),
-      ),
-      Text(
-        'Hub',
-        style: TextStyle(
-          color: Colors.blue,
+    children: [
+      RichText(
+        text: const TextSpan(
+          children: [
+            TextSpan(
+              text: 'Wallpaper',
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.black87,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            TextSpan(
+              text: 'Hub',
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.blue,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ],
         ),
       ),
     ],
